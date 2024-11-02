@@ -28,3 +28,83 @@ h1{
     padding: 15px;
     text-align: center;
 }
+
+
+
+.wonder img {
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+}
+
+
+.wonder a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.wonder a:hover {
+    background-color: #0056b3;
+}
+
+
+@media (max-width: 1200px) {
+    .wonder {
+        width: calc(33.33% - 20px); 
+    }
+}
+
+@media (max-width: 900px) {
+    .wonder {
+        width: calc(50% - 20px); 
+    }
+}
+
+@media (max-width: 600px) {
+    .wonder {
+        width: 100%; 
+    }
+}
+
+
+#wonder-details img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 12px;
+    max-width: 90%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+#wonder-details {
+    padding: 20px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 20px auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#wonder-details ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    margin-top: 15px;
+}
+
+#wonder-details li a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#wonder-details li a:hover {
+    text-decoration: underline;
+}
